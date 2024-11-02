@@ -1,0 +1,177 @@
+body{
+    margin: 0;
+    padding: 0;
+    /* background-color: #ffffff; */
+}
+/* Background image */
+.bg-img img{
+    width: 100%;
+    height: 95vh;
+    object-fit: cover;
+    filter: blur(2px);
+    object-position: top;
+    background-attachment: scroll;
+}
+
+.hero-img {
+    position:absolute;
+    top: 0;
+    z-index: 1;
+    background-color:black;;
+}
+/* Navigation bar */
+nav{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1000;
+    padding-top: 30px;
+}
+.logo{
+    margin-left: 5vh;
+    font-family: "Irish Grover", system-ui;
+    color: #ffffff;
+    font-size: 3.5rem;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    padding: 5px 10px 5px 10px;
+}
+.logo img{
+    width: 50px;
+    height: 50px;
+    color: #ffffff;
+}
+
+.page {
+    margin-right : 16vh;
+    
+}
+
+.page a{
+    /* display: flex; */
+    font-size: 1.5rem;
+    color: #ffffff;
+    font-family:"Jaldi", sans-serif;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 2px 10px 2px 10px;
+    text-decoration: none;
+}
+.page a:hover{
+    color: #E2652B;
+}
+.page .enquiry-btn{
+    background-color:#E2652B;
+    color: white;
+    border-radius: 5px;
+}
+.page .enquiry-btn:hover{
+    color:#E2652B;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+}
+section {
+    position: relative;
+    z-index: 1000;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1vh;
+    
+}
+
+.hero .hero-overlay h1 {
+    /* margin-right: 10vh; */
+    font-family: "Just Another Hand", cursive;
+    font-weight: 700;
+    font-style:oblique;
+    font-size: 10rem;
+    margin-bottom: -10px;
+}
+
+.hero .hero-overlay p {
+    margin-left: 15vh;
+    margin-top: auto;
+    font-family:"Jaldi", sans-serif; 
+    font-weight: 500;
+    font-style:normal;
+    font-size: 3rem;
+    margin-right: 10vh;
+}
+.container{
+
+    position: relative;
+    width: 90%;
+    height: 850px;
+    top: auto;
+    background: #FFFFFF;
+    box-shadow: 5px 5px 5px 2px rgba(0, 0, 0, 0.25);
+    border-radius: 35px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 35vh;
+    margin-left: 5%;
+    margin-right: 20%;
+    margin-bottom: 10vh;
+    z-index: 1000;
+    
+}
+.container .box1{
+    position: absolute;
+    width: 20%;
+    height: 250px;
+    left: 532px;
+    top: 50px;
+    box-shadow: 9px 10px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+}
+
+/* Rectangle 2 */
+
+
+
+
+/* Rectangle 3 */
+
+position: absolute;
+width: 250px;
+height: 450px;
+left: 532px;
+top: 650px;
+
+background: #D9D9D9;
+border-radius: 10px;
+
+
+/* Rectangle 4 */
+
+position: absolute;
+width: 250px;
+height: 450px;
+left: 800px;
+top: 700px;
+
+background: #D9D9D9;
+border-radius: 10px;
+
+
+/* Pic05 */
+
+
+
+
+/* Pic04 */
+
+position: absolute;
+width: 250px;
+height: 450px;
+left: 800px;
+top: 700px;
+
+background: url(Pic04.jpg);
+box-shadow: 9px 10px 4px rgba(0, 0, 0, 0.25);
+border-radius: 10px;
