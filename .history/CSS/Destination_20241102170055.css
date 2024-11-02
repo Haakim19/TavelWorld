@@ -1,0 +1,28 @@
+.container .box-area1 {
+    background-color: rgb(188, 173, 173);
+    /* position: absolute; */
+    width: 22%;
+    height: 80%;
+    box-shadow: 8px 8px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    overflow: hidden;
+    z-index: 10;
+    transition: all 0.5s ease;
+}
+.container .box-area1 .box-content{
+    font-family: "Jaldi", sans-serif;
+    color: #b71c1c;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    width: 100%;
+    height: 100%;
+    /* position: absolute; */
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    backdrop-filter: blur(5px);
+    opacity: 0;
+    transition: all 0.5s ease;
+    z-index: 1100;
+}
