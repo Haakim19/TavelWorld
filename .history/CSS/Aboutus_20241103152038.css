@@ -1,6 +1,3 @@
-body{
-    background-color:hsla(184, 100%, 16%, 0.221);
-}
 .hero{
     display: flex;
     flex-direction: row;
@@ -11,21 +8,21 @@ body{
     margin-right: 10%;
     text-align: center;
 }
-/* All the container style */
+
 .container{
     position:relative;
-    width: 85%;
-    height: 700px;
+    width: 90%;
+    height: 750px;
     top: -100px;
-    background: hsla(0, 0%, 100%, 0.651);
+    background: hsla(173, 74%, 49%, 0.1);
     box-shadow: 5px 5px 5px 2px rgba(0, 0, 0, 0.25);
     border-radius: 35px;
     display: flex;
     justify-content: center;
     align-items: center;
     margin-top: 18vh;
-    margin-left: 7.5%;
-    margin-right: 7.5%;
+    margin-left: 5%;
+    margin-right: 20%;
     margin-bottom:15vh;
     z-index: 10;
 }
@@ -39,49 +36,50 @@ body{
     color: #004D53;
     font-size: 4rem;
 }
-/* Our team card */
-.team h3{
+.container h3{
     font-family: "Righteous", sans-serif;
     font-size: 3rem;
-    margin-top: -5.5vh;
+    margin-top: -15vh;
     color: #ffffff;
-    margin-bottom: -4vh;
     /* margin-left: 30%; */
     text-align: center;
 }
-.team h4{
-    font-family: "Jaldi", sans-serif;
-    font-size: 1.5rem;
-    color: #ffffff;
-    text-align: center;
-    margin-bottom: -2vh;
-    color:#E2652B;
-    /* line-height:4rem; */
-    /* font-size: 2rem; */
-
-}
-.team h5{
+.team p{
     font-family: "Jaldi", sans-serif;
     font-size: 1rem;
     color: #ffffff;
-    text-align: left;
-    margin:10%;
+    text-align: center;
+    /* font-size: 2rem; */
+
 }
-/* team cards style */
-.team .box{
-    position:relative;
+.container .box{
+    position:absolute;
     background-color:tomato;
-    justify-content: space-evenly;
-    margin: 40px;
     width: 25%;
     height: 75%;
+    margin-left: 10%;
     box-shadow: 8px 8px 4px rgba(0, 0, 0, 0.25);
     border-radius: 10px;
     z-index: 10;
     transition: all 0.5s ease;
 }
-/* team cards animation style */
-.team .box .box-content{
+.container .box4{
+    left: -5%;
+    top: 15%;
+}
+.container .box5{
+    right: 37.5%;
+    top: 15%;
+}
+.container .box6{
+    right: 5%;
+    top: 15%;
+}
+/* .container .box4 .box-content, .container .box5 .box-content, .container .box6{
+    text-align: center;
+    
+} */
+.container .box .box-content{
     color: #fff;
     background-color: rgba(0, 0, 0, 0.5);
     display: flex;
@@ -98,42 +96,14 @@ body{
     opacity: 1;
     border-radius:10px
 }
-
-.cont1 .box {
-    position:absolute;
-    background-color:tomato;
-    width: 25%;
-    height: 75%;
-    right:70%;
-    /* top:-70px; */
-    box-shadow: 8px 8px 4px rgba(0, 0, 0, 0.25);
-    border-radius: 10px;
-    z-index: 10;
-}
-.cont1  section p{
+/* .container h2{
+    top: -10%;
+} */
+.container  p{
     color: #53998F;
     font-family: "Jaldi", sans-serif;
-    font-size: 1.2rem;
-    padding-left: 200px;
-    line-height: 1.5rem;
-    max-width: 600px;
-    display: flex;
-    flex-direction: column;
-    align-items:first baseline
-}
-.cont1  section p strong{
-    font-size: 2rem;
-}
-.cont1  section p span{
-    font-style: italic;
-    font-weight:800;
-}
-.box img {
-
-    width: 100%;
-
-    height: 100%;
-    border-radius: 10px;
-    object-fit: cover;
-
+    text-align:start;
+    padding-left: 50px;
+    line-height: 0.9rem;
+    margin: 10px;
 }

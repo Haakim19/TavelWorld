@@ -1,6 +1,3 @@
-body{
-    background-color:hsla(184, 100%, 16%, 0.221);
-}
 .hero{
     display: flex;
     flex-direction: row;
@@ -17,7 +14,7 @@ body{
     width: 85%;
     height: 700px;
     top: -100px;
-    background: hsla(0, 0%, 100%, 0.651);
+    background: hsla(173, 74%, 49%, 0.1);
     box-shadow: 5px 5px 5px 2px rgba(0, 0, 0, 0.25);
     border-radius: 35px;
     display: flex;
@@ -98,42 +95,20 @@ body{
     opacity: 1;
     border-radius:10px
 }
-
-.cont1 .box {
-    position:absolute;
+.cont1 .box{
+    position:relative;
     background-color:tomato;
     width: 25%;
     height: 75%;
-    right:70%;
-    /* top:-70px; */
+    margin-left: 10%;
     box-shadow: 8px 8px 4px rgba(0, 0, 0, 0.25);
     border-radius: 10px;
-    z-index: 10;
 }
-.cont1  section p{
+.cont1  p{
     color: #53998F;
     font-family: "Jaldi", sans-serif;
-    font-size: 1.2rem;
-    padding-left: 200px;
-    line-height: 1.5rem;
-    max-width: 600px;
-    display: flex;
-    flex-direction: column;
-    align-items:first baseline
-}
-.cont1  section p strong{
-    font-size: 2rem;
-}
-.cont1  section p span{
-    font-style: italic;
-    font-weight:800;
-}
-.box img {
-
-    width: 100%;
-
-    height: 100%;
-    border-radius: 10px;
-    object-fit: cover;
-
+    text-align:start;
+    padding-left: 50px;
+    line-height: 1rem;
+    margin: 10px;
 }

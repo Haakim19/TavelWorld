@@ -121,19 +121,12 @@ body{
     flex-direction: column;
     align-items:first baseline
 }
-.cont1  section p strong{
-    font-size: 2rem;
-}
-.cont1  section p span{
-    font-style: italic;
-    font-weight:800;
-}
 .box img {
 
-    width: 100%;
+    width: 50%;
 
-    height: 100%;
-    border-radius: 10px;
+    height: 150%;
+
     object-fit: cover;
 
 }
