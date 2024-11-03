@@ -1,0 +1,44 @@
+.container{
+    position: relative;
+    width: 90%;
+    height: 750px;
+    top: -100px;
+    background: hsla(173, 74%, 49%, 0.1);
+    box-shadow: 5px 5px 5px 2px rgba(0, 0, 0, 0.25);
+    border-radius: 35px;
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 18vh;
+    margin-left: 5%;
+    margin-right: 20%;
+    margin-bottom:15vh;
+    z-index: 10;
+}
+.container .box{
+    background-color:tomato;
+    width: 25%;
+    height: 80%;
+    margin-left: 10vh;
+    box-shadow: 8px 8px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    z-index: 10;
+    transition: all 0.5s ease;
+}
+.container section{
+    font-family: "Jaldi", sans-serif;
+    color:black;
+}
+.container section h2{
+    font-size: 4rem;
+    line-height: 1.5rem;
+    color:#53998F;
+}
+.container section ul{
+    font-family: "Jaldi", sans-serif;
+    text-align:start;
+    padding-left: 50px;
+    line-height: 0.9rem;
+    margin: 10px;
+}
