@@ -28,37 +28,29 @@
                     <a href="Enquiry.html" class="enquiry-btn">Enquiry</a>
                 </div>
             </nav>
-            <img class="hero-img" src="../Assets/Images/luxury.jpg" alt="">
-            <!-- Enquiry Form -->
-            <div class="container">
-                <div class="enquiry">
-                    <h1>Enquiry Form</h1>
-                </div>
-                    <form action="">
-                    <input type="text" placeholder="Full Name" >
-                    <div class="separator"></div>
-                    <input type="email" placeholder="Email">
-                    <div class="separator"></div>
-                    <input type="tel" placeholder="Phone Number">
-                    <div class="separator"></div>
-                    
-                        <select id="tour-packages">
-                            <option value="" disabled selected id="placeholder">Select a tour package</option>
-                            <option value="cultural_heritage">Cultural Heritage Tours - $550</option>
-                            <option value="beach_escapes">Beach Escapes - $700</option>
-                            <option value="wildlife_safari">Wildlife and Safari Adventures - $600</option>
-                            <option value="hill_country">Hill Country Retreats - $400</option>
-                            <option value="adventure">Adventure and Outdoor Activities - $350</option>
-                            <option value="wellness">Wellness and Ayurveda Retreats - $800</option>
-                            <option value="food_culinary">Food and Culinary Tours - $450</option>
-                            <option value="luxury">Luxury Escapes - $1,200</option>
-                        </select>
-                        <div class="separator"></div>
-                    <textarea name="msg" id="msg" cols="30" rows="10">Feedback</textarea>
-                    <div class="separator"></div>
-                    <button type="submit">Submit</button>
-                </form>
+            <div class="enquiry">
+                <h1>Enquiry Form</h1>
+                <p>Fill out the form below to send us your feedback or to make an enquiry about our tour packages.</p>
             </div>
+                <form action="">
+                <input type="text" placeholder="Full Name" >
+                <input type="email" placeholder="Email">
+                <input type="tel" placeholder="Phone Number">
+                <label for="tour-packages">Select a Package:</label>
+                    <select id="tour-packages">
+                        <option value="" disabled selected id="placeholder">Select a tour package</option>
+                        <option value="cultural_heritage">Cultural Heritage Tours - $550</option>
+                        <option value="beach_escapes">Beach Escapes - $700</option>
+                        <option value="wildlife_safari">Wildlife and Safari Adventures - $600</option>
+                        <option value="hill_country">Hill Country Retreats - $400</option>
+                        <option value="adventure">Adventure and Outdoor Activities - $350</option>
+                        <option value="wellness">Wellness and Ayurveda Retreats - $800</option>
+                        <option value="food_culinary">Food and Culinary Tours - $450</option>
+                        <option value="luxury">Luxury Escapes - $1,200</option>
+                    </select>
+                <label for="msg">Feedback</label>
+                <textarea name="msg" id="msg" cols="30" rows="10"></textarea>
+            </form>
 
 
             <footer class="footer"></footer>

@@ -1,0 +1,14 @@
+form{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: auto;
+    justify-content: center;
+    align-items: left;
+    margin: 30px;
+    margin-left: 25%;
+}
+.enquiry{
+    width: 50%;
+    margin-left: 25%;
+}
