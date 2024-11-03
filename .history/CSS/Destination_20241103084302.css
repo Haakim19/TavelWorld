@@ -1,12 +1,8 @@
 section .hero-overlay{
-    margin-bottom: -10vh;
-    margin-top: 10vh;
+    top: 10vh;
     font-family: "Jaldi", sans-serif;
     font-size: 3rem;
     color:rgb(255, 255, 255);
-}
-.hero-img{
-    top: -20vh;
 }
 .container{
     position: relative;
@@ -19,14 +15,14 @@ section .hero-overlay{
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    margin-top: 18vh;
+    margin-top: 25vh;
     margin-left: 5%;
     margin-right: 20%;
-    margin-bottom:15vh;
+    margin-bottom:20vh;
     z-index: 10;
 }
 .container .box {
-    background-color:transparent;
+    background-color: #cf8585;
     width: 22%;
     height: 80%;
     box-shadow: 8px 8px 4px rgba(0, 0, 0, 0.25);
@@ -54,14 +50,14 @@ section .hero-overlay{
 .container .box .box-content h2{
     font-family: "Jaldi", sans-serif;
     font-size: 2.2rem;
-    line-height: 2rem;
+    line-height: 3.2rem;
     color:#53998F;
 }
 .container .box .box-content ul{
     font-family: "Jaldi", sans-serif;
     text-align:start;
     padding-left: 50px;
-    line-height: 0.9rem;
+    line-height: 1rem;
     margin: 10px;
 }
 .container .box .box-content ul li{
@@ -84,9 +80,9 @@ section .hero-overlay{
 }
 .container h1{
     font-size: 3rem;
-    font-family: "Righteous", sans-serif;
+    font-family: "Playwrite GB S", serif;
     position: absolute;
-    top: -12px;
+    top: -20px;
     left: 15%;
     transform: translateX(-60%);
     margin-top: 20px;
@@ -107,22 +103,4 @@ section .hero-overlay{
 .box3 {
     margin-top: 4vh;
     
-}
- .btn{
-    width: 40%;
-    margin-left: 80px;
-    text-align: center;
-    background-color:#E2652B;
-    justify-content:space-evenly;
-    align-items: center;
-    color: white;
-    border-radius: 5px;
-    text-decoration: none;
-    padding: 4px 5px 4px 5px;
-    /* margin: 40px; */
-    transition: all 0.5s ease;
-}
- .btn:hover{
-    color:#E2652B;
-    background-color: rgb(255, 255, 255);
 }

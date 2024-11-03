@@ -19,7 +19,7 @@ section .hero-overlay{
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    margin-top: 18vh;
+    margin-top: 20vh;
     margin-left: 5%;
     margin-right: 20%;
     margin-bottom:15vh;
@@ -54,14 +54,14 @@ section .hero-overlay{
 .container .box .box-content h2{
     font-family: "Jaldi", sans-serif;
     font-size: 2.2rem;
-    line-height: 2rem;
+    line-height: 3.2rem;
     color:#53998F;
 }
 .container .box .box-content ul{
     font-family: "Jaldi", sans-serif;
     text-align:start;
     padding-left: 50px;
-    line-height: 0.9rem;
+    line-height: 1rem;
     margin: 10px;
 }
 .container .box .box-content ul li{
@@ -86,7 +86,7 @@ section .hero-overlay{
     font-size: 3rem;
     font-family: "Righteous", sans-serif;
     position: absolute;
-    top: -12px;
+    top: -18px;
     left: 15%;
     transform: translateX(-60%);
     margin-top: 20px;
@@ -107,22 +107,4 @@ section .hero-overlay{
 .box3 {
     margin-top: 4vh;
     
-}
- .btn{
-    width: 40%;
-    margin-left: 80px;
-    text-align: center;
-    background-color:#E2652B;
-    justify-content:space-evenly;
-    align-items: center;
-    color: white;
-    border-radius: 5px;
-    text-decoration: none;
-    padding: 4px 5px 4px 5px;
-    /* margin: 40px; */
-    transition: all 0.5s ease;
-}
- .btn:hover{
-    color:#E2652B;
-    background-color: rgb(255, 255, 255);
 }

@@ -54,14 +54,14 @@ section .hero-overlay{
 .container .box .box-content h2{
     font-family: "Jaldi", sans-serif;
     font-size: 2.2rem;
-    line-height: 2rem;
+    line-height: 3.0rem;
     color:#53998F;
 }
 .container .box .box-content ul{
     font-family: "Jaldi", sans-serif;
     text-align:start;
     padding-left: 50px;
-    line-height: 0.9rem;
+    line-height: 1rem;
     margin: 10px;
 }
 .container .box .box-content ul li{
@@ -109,17 +109,13 @@ section .hero-overlay{
     
 }
  .btn{
-    width: 40%;
-    margin-left: 80px;
-    text-align: center;
     background-color:#E2652B;
-    justify-content:space-evenly;
-    align-items: center;
     color: white;
     border-radius: 5px;
     text-decoration: none;
+    align-items: center;
     padding: 4px 5px 4px 5px;
-    /* margin: 40px; */
+    margin: 4px;
     transition: all 0.5s ease;
 }
  .btn:hover{
