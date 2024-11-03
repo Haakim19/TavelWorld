@@ -70,7 +70,7 @@ body{
 /* team cards style */
 .team .box{
     position:relative;
-    background-color:rgb(255, 255, 255);
+    background-color:tomato;
     justify-content: space-evenly;
     margin: 40px;
     width: 25%;
