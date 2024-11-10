@@ -66,6 +66,7 @@ input , input::placeholder{
     background-color: #024D53;
 }
 textarea::placeholder{
+    padding: 10px;
     font-size: 16px;
     color: #05a9b5;  
     text-align: center;

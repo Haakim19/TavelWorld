@@ -35,13 +35,13 @@
                     <h1>Enquiry Form</h1>
                 </div>
                     <form action="dataInsert.php" method="post">
-                    <input type="text" placeholder="Full Name" name="FullName" required>
+                    <input type="text" placeholder="Full Name" id="FullName" required>
                     <div class="separator"></div>
-                    <input type="email" placeholder="Email" name="Email" required>
+                    <input type="email" placeholder="Email" id="Email" required>
                     <div class="separator"></div>
-                    <input type="tel" placeholder="Phone Number" name="PhoneNumber" required>
+                    <input type="tel" placeholder="Phone Number" id="PhoneNumber" required>
                     <div class="separator"></div>
-                        <select id="tour-packages" name="tour-packages" required>
+                        <select id="tour-packages" required>
                             <option value="" disabled selected id="placeholder">Select a tour package</option>
                             <option value="cultural_heritage">Cultural Heritage Tours - $550</option>
                             <option value="beach_escapes">Beach Escapes - $700</option>
@@ -53,7 +53,7 @@
                             <option value="luxury">Luxury Escapes - $1,200</option>
                         </select>
                         <div class="separator"></div>
-                    <textarea name="msg" id="msg" cols="30" rows="10" placeholder="Feedback" name="msg" ></textarea>
+                    <textarea name="msg" id="msg" cols="30" rows="10" placeholder="Feedback" ></textarea>
                     <div class="separator"></div>
                     <button type="submit">Submit</button>
                     </form>

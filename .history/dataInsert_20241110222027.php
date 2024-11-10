@@ -20,16 +20,16 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         if ($stmt->execute()) {
 
             echo "<script>window.alert('Data inserted successfully');</script>";
-            header("Location:Enquiry.html");
+            // header("Location:Enquiry.html");
         } else {
             echo "<script>window.alert('Error: " . addslashes($stmt->error) . "');</script>";
-            header("Location:Enquiry.html");
+            // header("Location:Enquiry.html");
         }
 
         $stmt->close();
         $conn->close();
     } catch (Exception $e) {
         echo "<script>window.alert('Error: " . addslashes($e->getMessage()) . "');</script>";
-        header("Location:Enquiry.html");
+        // header("Location:Enquiry.html");
     }
 }
