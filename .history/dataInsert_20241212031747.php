@@ -29,6 +29,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     } catch (Exception $e) {
         $_SESSION['alert'] = 'Error: ' . $e->getMessage();
     }
-    header(("Location: Enquiry.php"));
+    header(("Location: Enquiry.html"));
     exit();
 }
